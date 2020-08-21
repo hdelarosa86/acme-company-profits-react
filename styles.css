@@ -1,0 +1,68 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  font-size: 1.5rem;
+  padding: 15px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+li a {
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.selected {
+  background-color: tomato;
+  color: #fff;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.company-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companies {
+  width: 70%;
+}
+
+.fiscal-year {
+  background-color: tomato;
+  padding: 5px 15px;
+  font-size: 1.25rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.profits {
+  width: 30%;
+}
+
+.profits li {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.profits p {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
